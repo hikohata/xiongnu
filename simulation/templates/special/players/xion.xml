@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>xion</Civ>
+    <GenericName>Xiongnu</GenericName>
+    <History>The Xiongnu were a confederation of ancient nomadic peoples who lived on the eastern Eurasian Steppe during classical antiquity and the early medieval period. They are one of the earliest and most well-documented steppe empires, playing a significant role in the history of Central Asia and East Asia.</History>
+    <Icon>emblems/emblem_xion.png</Icon>
+  </Identity>
+</Entity>

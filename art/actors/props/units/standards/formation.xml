@@ -83,9 +83,9 @@
         <prop actor="props/units/standards/formation_flag_spart.xml" attachpoint="root"/>
       </props>
     </variant>
-    <variant name="yayo">
+    <variant name="xion">
       <props>
-        <prop actor="props/units/standards/formation_flag_yayo.xml" attachpoint="root"/>
+        <prop actor="props/units/standards/formation_flag_xion.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

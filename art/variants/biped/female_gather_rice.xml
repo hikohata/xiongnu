@@ -5,6 +5,6 @@
   </animations>
   <props>
     <prop actor="props/units/tools/hoe.xml" attachpoint="weapon_R"/>
-    <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>
+    <prop actor="props/units/helmets/xion_ricehat.xml" attachpoint="helmet"/>
   </props>
 </variant>

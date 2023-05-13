@@ -5,7 +5,7 @@
     <variant>
       <mesh>props/new/head_vercingetorix.dae</mesh>
       <textures>
-        <texture file="props/head/han_xin.png" name="baseTex"/>
+        <texture file="props/head/xion_xin.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

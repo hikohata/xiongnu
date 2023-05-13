@@ -10,9 +10,9 @@
         </variant>
     </group>
     <group>
-        <variant name="waypoint_yayo">
+        <variant name="waypoint_xion">
             <textures>
-                <texture file="props/banner_yayo.png" name="baseTex"/>
+                <texture file="props/banner_xion.png" name="baseTex"/>
             </textures>
         </variant>
     </group>

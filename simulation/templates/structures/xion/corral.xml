@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_corral">
+  <Identity>
+    <Civ>xion</Civ>
+    <SpecificName>Wori</SpecificName>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      gather_animals_stockbreeding
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.5</BatchTimeModifier>
+    <Entities datatype="tokens">
+      gaia/fauna_pig_trainable
+      gaia/fauna_cattle_cow_trainable
+      gaia/fauna_cow_trainable
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/xion/corral.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

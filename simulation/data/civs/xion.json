@@ -1,0 +1,69 @@
+﻿{
+	"Code": "xion",
+	"Culture": "xion",
+	"Music":[
+		{ "File": "Karmic_Confluence.ogg", "Type": "peace" },
+		{ "File": "Expedition.ogg", "Type": "peace" }
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Horseback races",
+			"History": "Horseback races history...",
+			"Description": "Cavarly +10% speed."
+		}
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/xion/civil_centre"
+		},
+		{
+			"Template":"gaia/fauna_sheep_trainable",
+			"Count":4
+		},
+		{
+			"Template":"units/xion/war_wolf",
+			"Count":1
+		},
+		{
+			"Template": "units/xion/cavalry_archer_b",
+			"Count": 5
+		}
+	],
+
+	"AINames":
+	[
+		"Modu Chanyu",
+		"Huhanye Chanyu",
+		"Tuoba Gui",
+		"Murong Jun",
+		"Touman Chanyu",
+		"Huhanye Chanyu",
+		"Xuanwei Chanyu"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/xion/cavalry_archer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/xion/cavalry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/xion/cavalry_archer_b",
+		"skirmish/units/default_siege_ram": "units/xion/cavalry_archer_b",
+		"skirmish/units/special_starting_unit": "units/xion/war_wolf",
+		"skirmish/units/default_support_female_citizen": "gaia/fauna_sheep_trainable",
+		"skirmish/structures/default_house_5": "structures/{civ}/house",
+		"skirmish/structures/default_house_10": "structures/{civ}/house",
+		"skirmish/structures/default_storehouse": "structures/{civ}/house",
+		"skirmish/structures/default_arsenal": "structures/{civ}/house",
+		"skirmish/structures/default_corral": "structures/{civ}/house",
+		"skirmish/structures/default_farmstead": "structures/{civ}/house",
+		"skirmish/structures/default_market": "structures/{civ}/house",
+		"skirmish/structures/default_range": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}

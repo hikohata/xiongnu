@@ -159,91 +159,21 @@
 			<Actor seed="37852"/>
 		</Entity>
 		<Entity uid="23">
-			<Template>structures/yayo/civil_centre</Template>
+			<Template>structures/xion/civil_centre</Template>
 			<Player>0</Player>
 			<Position x="501.82929" z="539.27106"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="45226"/>
 		</Entity>
-		<Entity uid="24">
-			<Template>structures/yayo/barracks</Template>
-			<Player>0</Player>
-			<Position x="483.13209" z="518.4051"/>
-			<Orientation y="-10.23441"/>
-			<Actor seed="20109"/>
-		</Entity>
-		<Entity uid="25">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="293.88837" z="535.59864"/>
-			<Orientation y="2.40346"/>
-			<Actor seed="18009"/>
-		</Entity>
-		<Entity uid="26">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="327.8787" z="545.21332"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="15472"/>
-		</Entity>
-		<Entity uid="27">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="343.4545" z="560.61628"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="56504"/>
-		</Entity>
-		<Entity uid="28">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="307.80561" z="520.14576"/>
-			<Orientation y="-2.34697"/>
-			<Actor seed="62104"/>
-		</Entity>
-		<Entity uid="29">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="289.4903" z="589.58588"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="20576"/>
-		</Entity>
-		<Entity uid="30">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="328.40296" z="573.76374"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="19741"/>
-		</Entity>
-		<Entity uid="31">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="315.0799" z="557.70881"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="46145"/>
-		</Entity>
-		<Entity uid="32">
-			<Template>structures/yayo/market</Template>
-			<Player>0</Player>
-			<Position x="335.96967" z="435.47761"/>
-			<Orientation y="4.04577"/>
-			<Actor seed="32528"/>
-		</Entity>
-		<Entity uid="33">
-			<Template>structures/yayo/wonder</Template>
-			<Player>0</Player>
-			<Position x="555.04468" z="485.00568"/>
-			<Orientation y="-2.41195"/>
-			<Actor seed="64774"/>
-		</Entity>
 		<Entity uid="34">
-			<Template>structures/yayo/temple</Template>
+			<Template>structures/xion/temple</Template>
 			<Player>0</Player>
 			<Position x="539.59907" z="529.97706"/>
 			<Orientation y="-2.42104"/>
 			<Actor seed="10658"/>
 		</Entity>
 		<Entity uid="37">
-			<Template>actor|structures/yayoi/gate.xml</Template>
+			<Template>actor|structures/xion/gate.xml</Template>
 			<Position x="528.29798" z="518.42365"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="20218"/>
@@ -298,175 +228,112 @@
 			<Actor seed="27854"/>
 		</Entity>
 		<Entity uid="47">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="397.52948" z="497.7309"/>
 			<Orientation y="3.04954"/>
 			<Actor seed="40382"/>
 		</Entity>
 		<Entity uid="48">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="409.79365" z="488.57483"/>
 			<Orientation y="-1.77114"/>
 			<Actor seed="27637"/>
 		</Entity>
 		<Entity uid="49">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="381.44263" z="484.05884"/>
 			<Orientation y="1.42167"/>
 			<Actor seed="17141"/>
 		</Entity>
 		<Entity uid="50">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="432.36521" z="398.48786"/>
 			<Orientation y="-0.61895"/>
 			<Actor seed="53395"/>
 		</Entity>
 		<Entity uid="51">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="422.88187" z="386.38953"/>
 			<Orientation y="-0.25625"/>
 			<Actor seed="47555"/>
 		</Entity>
 		<Entity uid="52">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="398.26297" z="397.16712"/>
 			<Orientation y="0.8856"/>
 			<Actor seed="27777"/>
 		</Entity>
 		<Entity uid="53">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="363.4322" z="460.4369"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="64782"/>
 		</Entity>
 		<Entity uid="54">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="389.13556" z="449.68696"/>
 			<Orientation y="-1.19428"/>
 			<Actor seed="53845"/>
 		</Entity>
 		<Entity uid="55">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="400.57789" z="462.25388"/>
 			<Orientation y="2.93578"/>
 			<Actor seed="48197"/>
 		</Entity>
 		<Entity uid="56">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="447.46485" z="420.9167"/>
 			<Orientation y="-0.9196"/>
 			<Actor seed="38721"/>
 		</Entity>
 		<Entity uid="57">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="387.57117" z="354.41123"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44394"/>
 		</Entity>
 		<Entity uid="58">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="396.72541" z="366.37287"/>
 			<Orientation y="-0.8016"/>
 			<Actor seed="37063"/>
 		</Entity>
 		<Entity uid="59">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="365.92612" z="356.18314"/>
 			<Orientation y="0.49692"/>
 			<Actor seed="56900"/>
 		</Entity>
 		<Entity uid="60">
-			<Template>structures/yayo/dock</Template>
+			<Template>structures/xion/dock</Template>
 			<Player>0</Player>
 			<Position x="323.75321" z="399.22242"/>
 			<Orientation y="-2.12145"/>
 			<Actor seed="37044"/>
 		</Entity>
 		<Entity uid="61">
-			<Template>structures/yayo/house</Template>
+			<Template>structures/xion/house</Template>
 			<Player>0</Player>
 			<Position x="454.26609" z="438.42399"/>
 			<Orientation y="4.67658"/>
 			<Actor seed="38721"/>
 		</Entity>
-		<Entity uid="62">
-			<Template>structures/yayo/corral</Template>
-			<Player>0</Player>
-			<Position x="300.75348" z="572.40082"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="17762"/>
-		</Entity>
-		<Entity uid="63">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="305.89551" z="605.39258"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="20576"/>
-		</Entity>
-		<Entity uid="64">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="291.86228" z="504.98212"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="20576"/>
-		</Entity>
-		<Entity uid="65">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="277.64582" z="521.36957"/>
-			<Orientation y="2.40346"/>
-			<Actor seed="18009"/>
-		</Entity>
-		<Entity uid="66">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="248.5842" z="553.87708"/>
-			<Orientation y="2.40346"/>
-			<Actor seed="18009"/>
-		</Entity>
-		<Entity uid="67">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="262.80066" z="537.48963"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="20576"/>
-		</Entity>
-		<Entity uid="68">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="264.82676" z="568.10615"/>
-			<Orientation y="2.40346"/>
-			<Actor seed="18009"/>
-		</Entity>
-		<Entity uid="69">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="278.744" z="552.65326"/>
-			<Orientation y="-2.34697"/>
-			<Actor seed="62104"/>
-		</Entity>
-		<Entity uid="70">
-			<Template>structures/yayo/field</Template>
-			<Player>0</Player>
-			<Position x="318.08808" z="588.51923"/>
-			<Orientation y="2.35622"/>
-			<Actor seed="19741"/>
-		</Entity>
 		<Entity uid="75">
-			<Template>structures/yayo/dock</Template>
+			<Template>structures/xion/dock</Template>
 			<Player>0</Player>
 			<Position x="336.73035" z="379.12195"/>
 			<Orientation y="-2.12145"/>

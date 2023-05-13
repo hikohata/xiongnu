@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="spec_champ|template_unit_champion_cavalry">
+  <Attack>
+    <Melee>
+      <AttackName>Spear</AttackName>
+      <Damage>
+        <Hack>20</Hack>
+        <Crush>25</Crush>
+        <Pierce>20</Pierce>
+      </Damage>
+      <MaxRange>5</MaxRange>
+      <Bonuses>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>1.75</Multiplier>
+        </BonusCavMelee>
+      </Bonuses>
+      <PrepareTime>700</PrepareTime>
+      <RepeatTime>1250</RepeatTime>
+      <PreferredClasses datatype="tokens">Structure Unit</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Auras datatype="tokens">
+    units/champion_cavarly_archer
+  </Auras>
+  <Health>
+    <Max>300</Max>
+  </Health>
+  <Identity>
+    <Civ>xion</Civ>
+    <GenericName>Champion Cavalry</GenericName>
+    <SpecificName>Siege Cavalry</SpecificName>
+    <SelectionGroupName>units/xion/champion_cavalry</SelectionGroupName>
+    <Icon>units/xion/champion_cavalry.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_cavalry</Techs>
+    </Requirements>
+    <VisibleClasses datatype="tokens">Cavalry Siege</VisibleClasses>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3</Hack>
+        <Pierce>5</Pierce>
+        <Crush>3</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/spear_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.1</WalkSpeed>
+    <Acceleration op="mul">0.9</Acceleration>
+    <RunMultiplier>1.2</RunMultiplier>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/xion/cavalry_archer_e_m.xml</Actor>
+  </VisualActor>
+</Entity>

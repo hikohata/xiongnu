@@ -9,7 +9,7 @@
     <group>
         <variant frequency="1" name="Face-03">
             <textures>
-                <texture file="props/heads/yayoi_fem_c.png" name="baseTex"/>
+                <texture file="props/heads/xion_fem_c.png" name="baseTex"/>
             </textures>
         </variant>
     </group>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship">
+  <Attack>
+    <Ranged>
+      <AttackName>Arrow</AttackName>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>5</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>70</MaxRange>
+      <MinRange>15</MinRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>900</RepeatTime>
+      <Projectile>
+        <Speed>125</Speed>
+        <Spread>1.5</Spread>
+        <Gravity>50</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="7"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <Population>1</Population>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <wood>250</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square depth="16.0" width="8.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <EjectHealth>0</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Support FemaleCitizen Infantry Soldier Cavalry Healer Dog Relic</EjectClassesOnDestroy>
+    <List datatype="tokens">Support FemaleCitizen Infantry Soldier Cavalry Healer Dog Relic</List>
+    <Max>50</Max>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>10</LoadingRange>
+    <Pickup>true</Pickup>
+  </GarrisonHolder>
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <Identity>
+    <Civ>xion</Civ>
+    <GenericName>Transport Ship</GenericName>
+    <SpecificName>Zhàn Chuán</SpecificName>
+    <Icon>units/han/ship_scout.png</Icon>
+    <VisibleClasses datatype="tokens">ScoutShip Ranged ArrowShip</VisibleClasses>
+    <Classes datatype="tokens">Bireme</Classes>
+    <Tooltip>Garrison units for transport across water. Can attack only if garrisoned.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_town
+      </Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <xp>20</xp>
+    <food>5</food>
+    <wood>8</wood>
+  </Loot>
+  <Position>
+    <TurnRate>1.5</TurnRate>
+  </Position>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>4</Hack>
+        <Pierce>3</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x256/cartouche.png</MainTexture>
+        <MainTextureMask>128x256/cartouche_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <TrainingRestrictions>
+    <Category>ScoutShip</Category>
+  </TrainingRestrictions>
+  <TreasureCollector>
+    <MaxDistance>7</MaxDistance>
+  </TreasureCollector>
+  <BuildingAI>
+    <DefaultArrowCount>0</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    <MaxArrowCount>50</MaxArrowCount>
+    <GarrisonArrowClasses>Unit</GarrisonArrowClasses>
+  </BuildingAI>
+  <!-- <UnitAI>
+    <DefaultStance>standground</DefaultStance>
+    <FleeDistance>12.0</FleeDistance>
+    <FormationController>false</FormationController>
+    <CheeringTime>2800</CheeringTime>
+  </UnitAI> -->
+  <UnitMotion>
+    <WalkSpeed>17</WalkSpeed>
+    <Acceleration op="mul">5.0</Acceleration>
+  </UnitMotion>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/han/bireme.xml</Actor>
+  </VisualActor>
+</Entity>

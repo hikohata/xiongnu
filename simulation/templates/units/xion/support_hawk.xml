@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Attack disable="">
+  </Attack>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Population>0</Population>
+    <Resources>
+      <food>300</food>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>100</Max>
+  </Health>
+  <Identity>
+    <Civ>xion</Civ>
+    <GenericName>Hawk</GenericName>
+    <SpecificName>Hawk</SpecificName>
+    <Icon>gaia/fauna_eagle.png</Icon>
+    <Classes datatype="tokens">Human FastMoving</Classes>
+    <Tooltip>Cannot attack</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <xp>8</xp>
+  </Loot>
+  <Minimap>
+    <Type>unit</Type>
+  </Minimap>
+  <Obstruction>
+    <Unit/>
+    <Active>true</Active>
+    <BlockMovement>false</BlockMovement>
+    <BlockPathfinding>false</BlockPathfinding>
+    <BlockFoundation>false</BlockFoundation>
+    <BlockConstruction>false</BlockConstruction>
+    <DisableBlockMovement>false</DisableBlockMovement>
+    <DisableBlockPathfinding>false</DisableBlockPathfinding>
+    <DeleteUponConstruction>false</DeleteUponConstruction>
+  </Obstruction>
+  <Position>
+    <Altitude>25</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>0</FloatDepth>
+    <TurnRate>1</TurnRate>
+  </Position>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>1</Hack>
+        <Pierce>5</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x256/ellipse.png</MainTexture>
+        <MainTextureMask>128x256/ellipse_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <StatusBars>
+    <HeightOffset>3.0</HeightOffset>
+  </StatusBars>
+  <TrainingRestrictions>
+    <Category>Centurion</Category>
+    <MatchLimit>8</MatchLimit>
+  </TrainingRestrictions>
+  <UnitAI>
+    <DefaultStance>passive</DefaultStance>
+    <FormationController>false</FormationController>
+    <CanGuard>false</CanGuard>
+    <CanPatrol>true</CanPatrol>
+    <PatrolWaitTime>0</PatrolWaitTime>
+    <RoamDistance>1000.0</RoamDistance>
+    <FleeDistance>10.0</FleeDistance>
+    <RoamTimeMin>10000</RoamTimeMin>
+    <RoamTimeMax>100000</RoamTimeMax>
+    <FeedTimeMin>1</FeedTimeMin>
+    <FeedTimeMax>2</FeedTimeMax>
+  </UnitAI>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.5</WalkSpeed>
+    <RunMultiplier>1.5</RunMultiplier>
+    <Acceleration op="mul">1.5</Acceleration>
+    <PassabilityClass>unrestricted</PassabilityClass>
+  </UnitMotion>
+  <!-- <UnitMotionFlying>
+    <MaxSpeed>15.0</MaxSpeed>
+    <TakeoffSpeed>1.0</TakeoffSpeed>
+    <LandingSpeed>5.0</LandingSpeed>
+    <AccelRate>5.0</AccelRate>
+    <SlowingRate>5.0</SlowingRate>
+    <BrakingRate>5.0</BrakingRate>
+    <TurnRate>0.5</TurnRate>
+    <OvershootTime>2.0</OvershootTime>
+    <FlyingHeight>40.0</FlyingHeight>
+    <ClimbRate>4.0</ClimbRate>
+    <DiesInWater>false</DiesInWater>
+    <PassabilityClass>unrestricted</PassabilityClass>
+  </UnitMotionFlying> -->
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>fauna/hawk.xml</Actor>
+    <!-- <SilhouetteDisplay>false</SilhouetteDisplay>
+    <SilhouetteOccluder>false</SilhouetteOccluder>
+    <VisibleInAtlasOnly>false</VisibleInAtlasOnly> -->
+  </VisualActor>
+</Entity>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/xion_hairbun.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/bow/xion_bow.xml" attachpoint="weapon_bow"/>
+        <prop actor="props/units/quivers/xion_quiver_hip.xml" attachpoint="sheath_L"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="Han-Tunic-01">
+      <textures>
+        <texture file="skeletal/xion/tunic_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Tunic-02">
+      <textures>
+        <texture file="skeletal/xion/tunic_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Tunic-03">
+      <textures>
+        <texture file="skeletal/xion/tunic_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_archer_relax_hip.xml" frequency="1" name="Archer-Relax-Hip"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+    <variant file="biped/rider/carry_wood.xml"/>
+    <variant file="biped/rider/carry_food.xml"/>
+    <variant file="biped/rider/carry_stone.xml"/>
+    <variant file="biped/rider/carry_metal.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/cavalry/attack_ranged_archer_hip.xml"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_ranged.xml"/>
+
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+
+
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

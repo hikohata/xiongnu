@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant file="biped/rider/base_carry_stone.xml">
+  <props>
+    <prop actor="props/units/shuttle_stone.xml" attachpoint="weapon_R"/>
+    <prop attachpoint="ammo"/>
+    <prop attachpoint="shield"/>
+    <prop attachpoint="shield_arm"/>
+  </props>
+</variant>

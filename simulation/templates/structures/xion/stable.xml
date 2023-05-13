@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <Identity>
+    <Civ>xion</Civ>
+    <SpecificName>Mǎ Yuàn</SpecificName>
+    <!-- <GenericName>Stable</GenericName> -->
+    <!-- <SelectionGroupName>template_structure_military_stable</SelectionGroupName> -->
+    <!-- <Tooltip>Train Cavalry and research Cavalry technologies.</Tooltip> -->
+    <!-- <VisibleClasses datatype="tokens">Village Stable</VisibleClasses>
+    <Icon>structures/stable_01.png</Icon> -->
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      stable_batch_training
+      cavalry_movement_speed
+      cavalry_health
+      -nisean_horses
+      unlock_champion_cavalry
+      -unlock_champion_chariots
+      archer_attack_spread
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}/cavalry_axeman_b
+      -units/{civ}/cavalry_swordsman_b
+      -units/{civ}/cavalry_spearman_b
+      -units/{civ}/cavalry_javelineer_b
+      units/{civ}/cavalry_archer_b
+      -units/{civ}/champion_cavalry
+      -units/{civ}/champion_cavalry_spearman
+      -units/{civ}/champion_cavalry_swordsman
+      -units/{civ}/champion_cavalry_javelineer
+      units/{civ}/champion_cavalry_archer
+      -units/{civ}/champion_chariot
+      units/{civ}/support_yurt_packed
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/xion/stable.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

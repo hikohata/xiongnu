@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="chariot|template_unit_hero_cavalry_crossbowman">
+  <Auras datatype="tokens">
+    units/heroes/xion_hero_modu_chanyu_1
+  </Auras>
+  <Attack>
+    <Ranged>
+      <Damage>
+        <Crush>3</Crush>
+      </Damage>
+    </Ranged>
+  </Attack>
+  <Footprint replace="">
+    <Square depth="10.0" width="10.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>xion</Civ>
+    <SpecificName>Mòdú Chányú</SpecificName>
+    <Icon>units/xion/hero_modu_chanyu.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
+  </Identity>
+  <UnitMotion>
+    <FormationController>true</FormationController>
+    <PassabilityClass>default</PassabilityClass>
+    <WalkSpeed>15</WalkSpeed>
+    <RunMultiplier>1.5</RunMultiplier>
+    <InstantTurnAngle>1.3</InstantTurnAngle>
+    <Acceleration>20</Acceleration>
+    <Weight>20</Weight>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/han/hero_chariot_crossbowman_wei_qing_m.xml</Actor>
+  </VisualActor>
+</Entity>

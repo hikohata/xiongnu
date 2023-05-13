@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_farmstead">
+  <Footprint>
+    <Square width="14" depth="14"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>xion</Civ>
+    <SpecificName>Kömëgura</SpecificName>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -pair_gather_food_maur
+      gather_wicker_baskets
+      -gather_farming_plows
+      -gather_farming_training
+      -gather_farming_training_ptol
+      -gather_farming_fertilizer
+      -gather_farming_fertilizer_ptol
+      -gather_farming_seed_drill
+      -gather_farming_water_weeding
+      -gather_farming_chain_pump
+      -gather_farming_harvester
+    </Technologies>
+  </Researcher>
+  <Obstruction>
+    <Static width="12.0" depth="12"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/xion/farmstead.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

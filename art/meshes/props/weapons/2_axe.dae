@@ -44,7 +44,7 @@
   </library_effects>
   <library_images>
     <image id="prop_weap_dds" name="prop_weap_dds">
-      <init_from>/home/welton/.local/share/0ad/mods/yayoi_japan/art/meshes/props/weapons/prop_weap.dds</init_from>
+      <init_from>/home/welton/.local/share/0ad/mods/xion_japan/art/meshes/props/weapons/prop_weap.dds</init_from>
     </image>
   </library_images>
   <library_materials>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_ram">
+  <Identity>
+    <Civ>xion</Civ>
+    <SpecificName>Tukikömi</SpecificName>
+    <Icon>units/xion/siege_ram.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/xion/siege_ram.xml</Actor>
+  </VisualActor>
+</Entity>

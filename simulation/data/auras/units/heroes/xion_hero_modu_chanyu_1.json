@@ -1,0 +1,18 @@
+{
+	"type": "range",
+	"radius": 100,
+	"affects": ["Human"],
+	"affectedPlayers": ["Player"],
+	"modifications": [
+		{ "value": "Attack/Capture/Capture", "multiply": 1.4 },
+		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 1.2 },
+		{ "value": "Resistance/Entity/Damage/Hack", "multiply": 0.8 },
+		{ "value": "Resistance/Entity/Damage/Pierce", "multiply": 0.8 },
+		{ "value": "Resistance/Entity/Damage/Crush", "multiply": 0.8 }
+	],
+	"auraName": "Extremely Loyal Warriors",
+	"auraDescription": "Own human +40% capture and +20% ranged attack, but -20% resistance to damage.",
+	"overlayIcon": "art/textures/ui/session/auras/laurel.png"
+}
